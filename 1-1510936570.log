@@ -1,0 +1,14 @@
+ --- Init ---
+Fermi
+ --- Bot used 2 milliseconds ---
+-----------------------------------------------------------------------------
+ --- Frame #1 ---
+thread 'main' panicked at 'attempt to add with overflow', /checkout/src/libcore/ops/arith.rs:112:45
+ --- Bot used 27 milliseconds ---
+ERRORED!
+Response received (if any):
+thread 'main' panicked at 'attempt to add with overflow', /checkout/src/libcore/ops/arith.rs:112:45
+ --- Bot was killed. Below is the rest of its output (if any): ---
+note: Run with `RUST_BACKTRACE=1` for a backtrace.
+
+ --- End bot output ---

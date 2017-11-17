@@ -1,0 +1,15 @@
+ --- Init ---
+Fermi
+ --- Bot used 8 milliseconds ---
+-----------------------------------------------------------------------------
+ --- Frame #1 ---
+thread 'main' panicked at 'attempt to add with overflow', /checkout/src/libcore/ops/arith.rs:112:45
+ --- Bot used 0 milliseconds ---
+ERRORED!
+Response received (if any):
+thread 'main' panicked at 'attempt to add with overflow', /checkout/src/libcore/ops/arith.rs:112:45
+ --- Bot was killed. Below is the rest of its output (if any): ---
+stack backtrace:
+   0: std::sys::imp::backtrace::tracing::imp::unwind_backtrace
+
+ --- End bot output ---

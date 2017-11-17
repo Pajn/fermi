@@ -1,0 +1,18 @@
+[package]
+name = "fermi"
+version = "0.1.0"
+authors = ["Rasmus Eneman <rasmus@eneman.eu>"]
+
+[dependencies]
+pathfinding = "0.5"
+rand="0.3.18"
+rusty-machine="0.5.4"
+text_io = "*"
+
+[[bin]]
+path = "src/my_bot.rs"
+name = "my_bot"
+
+[[bin]]
+path = "src/random_bot.rs"
+name = "random_bot"
